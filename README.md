@@ -2,6 +2,8 @@
 
 Using `assertNotContains` in a failing condition injects `not` into both the expected and actual strings.
 
+See https://github.com/sebastianbergmann/phpunit/issues/2688
+
 Consider this class:
 
 ```php
